@@ -31,9 +31,11 @@ body {
   bottom: 0;
 }
 
+
 .cake .lyr-2 {
   color: #774F38;
   bottom: 3rem;
+  
 }
 
 .cake .lyr-3 {
@@ -64,6 +66,7 @@ body {
   left: .75rem;
 }
 
+
 .candle::after {
   content: "";
   width: 2rem;
@@ -73,16 +76,19 @@ body {
   border-radius: 50%;
 }
 
+
 .flame {
   position: absolute;
   left: 6.5rem;
 }
+
 
 .wht {
   color: white;
   animation: burn-wht 1.8s;
   box-shadow: 0 0 1rem white;
 }
+
 
 .ylw {
   color: gold;
@@ -92,6 +98,7 @@ body {
   opacity: .9
 }
 
+
 .orng {
   color: orange;
   top: 3.6rem;
@@ -100,12 +107,14 @@ body {
   opacity: .8
 }
 
+
 .red {
   color: crimson;
   top: 5.4rem;
   animation: burn-red 1s;
   opacity: .7;
 }
+
 
 .smoke {
   color: black;
@@ -121,6 +130,7 @@ body {
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 }
+
 
 .smk-1 {
   animation-duration: .5s;
@@ -213,7 +223,9 @@ body {
   }
 }
 
+
 @keyframes burn-ylw {
+  
   0% {
     transform: rotate(120deg) skewX(0deg) scale(1.4)
   }
@@ -236,6 +248,7 @@ body {
 }
 
 @keyframes burn-orng {
+  
   0% {
     transform: rotate(65deg) skewX(0deg) scale(1.6)
   }
@@ -258,6 +271,7 @@ body {
 }
 
 @keyframes burn-red {
+  
   0% {
     transform: rotate(120deg) skewX(0deg) scale(1.8)
   }
@@ -280,6 +294,7 @@ body {
 }
 
 @keyframes burn-smoke {
+  
   0% {
     transform: rotate(0deg) scale(1);
     opacity: 1;
@@ -293,6 +308,7 @@ body {
 }
 
 @keyframes burn-smoke-rev {
+  
   0% {
     transform: rotate(0deg) scale(1);
     opacity: 1;
